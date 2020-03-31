@@ -5,6 +5,9 @@
 - [什麼是網路爬蟲？](#什麼是網路爬蟲？)
 - [爬蟲基本原理](#爬蟲基本原理)
 - [開發套件介紹](#開發套件介紹)
+    - [Requests介紹](#Requests介紹)
+    - [Beautiful Soup介紹](#Beautiful-Soup介紹)
+- [爬蟲程式介紹](#爬蟲程式介紹)
 
 
 
@@ -24,3 +27,27 @@
 
 
 ## 開發套件介紹
+
+- ### Requests介紹：
+> Requests is an elegant and simple HTTP library for Python, built for human beings.
+
+```Requests```是建構在[```urllib3```](https://github.com/urllib3/urllib3)上。藉由```Requests```，我們可以輕鬆的發送HTTP/1.1 Requests。  
+#### 安裝方式：
+```bash
+pip install requests
+```
+
+
+- ### Beautiful Soup介紹：
+```Beautiful Soup```是一個可以從HTML或XML格式中提取資料的Python套件。它可將透過parser來實現在文檔中的導舫、查找等動作。
+
+> 因為HTML及XML都半結構化的資料，因此可以透過這樣的方式選取目標的資料。
+
+
+#### 安裝方式
+```bash
+pip install beautifulsoup4
+```
+
+## 爬蟲程式介紹
+> 參考example/ipynb/Demo.ipynb
