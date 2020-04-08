@@ -51,3 +51,6 @@ pip install beautifulsoup4
 
 ## 爬蟲程式介紹
 > 參考example/ipynb/Tutorial.ipynb
+
+## Python學習資源
+https://github.com/kowilliam03/Free_Python_Resource
